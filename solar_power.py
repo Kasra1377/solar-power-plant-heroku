@@ -122,7 +122,7 @@ html_button = '<a href="#top" class="btn btn-primary btn-sm" role="button" aria-
 st.markdown(html_button, unsafe_allow_html = True)
 
 st.write('first of all we have to import our dataset :')
-df = pd.read_csv('E:\Datasets\Plant_1_Generation_Data.csv')
+df = pd.read_csv('Plant_1_Generation_Data.csv')
 st.write(df)
 st.write("""* This dataset has `68778` rows and `7` columns.
 
@@ -258,7 +258,7 @@ st.write('![alt text](https://img.techpowerup.org/201003/55.png "Daily Yield Mea
 
 st.write('* According to chart above, we have maximum daily yield on `2020-05-25` and `2020-06-14`.There are many reasons for this such as **weather consition** and **sun irradiation**.Most likely on this date the weather condition was sunny and for those dates that had minimum values the weather condition was **rainy** our **cloudy**.')
 
-weather_df = pd.read_csv('E:\Datasets\Plant_1_Weather_Sensor_Data.csv')
+weather_df = pd.read_csv('Plant_1_Weather_Sensor_Data.csv')
 weather_df.drop(columns = {'PLANT_ID' , 'SOURCE_KEY'} , inplace = True)
 
 st.write('---')
