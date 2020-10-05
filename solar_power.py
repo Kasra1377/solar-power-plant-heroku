@@ -1,21 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import math
-#import datetime
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set(style="whitegrid")
-
-from sklearn import neighbors
-from sklearn import model_selection , preprocessing , svm
-from sklearn.linear_model import LinearRegression , BayesianRidge , Lasso , Ridge
-from sklearn.tree import DecisionTreeRegressor
-
-import warnings
-warnings.filterwarnings('ignore')
-
 #-------------------------------------------------------------------------
 
 st.write("""# Solar Power Generation Dataset Ananlysis
