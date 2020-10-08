@@ -2,6 +2,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 #-------------------------------------------------------------------------
+st.write("""
+**Author**   :   Kasra Sadeghianpoor           
+
+""")
 
 st.write("""# Solar Power Generation Dataset Ananlysis
 In this web application we are going to analyze solar power generation dataset with multiple aspects.Lets get started...
